@@ -1,0 +1,289 @@
+/*Polices*/
+
+@font-face {
+    font-family: 'Cute Cartoon';
+    src: url('polices/Cute Cartoon.otf');
+}
+@font-face {
+    font-family: 'Cartoon Blocks';
+    src: url('polices/From Cartoon Blocks.ttf');
+}
+@font-face {
+    font-family: 'PhatRave';
+    src: url('polices/PhatRave.ttf');
+}
+
+@font-face {
+    font-family: 'Rumpelstiltskin';
+    src: url('polices/Rumpelstiltskin.ttf');
+}
+
+@font-face {
+    font-family: 'The Million Mile Man';
+    src: url('polices/The Million Mile Man.ttf');
+}
+
+
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('images/fond1.7.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: "Cartoon Blocks", sans-serif;
+	font-color: red;
+	font-weight: normal;
+    text-transform: uppercase;
+}
+/* Header */
+
+header
+{
+    background: url('images/separateur.png') repeat-x bottom;
+}
+
+#titre_principal
+{
+    display: inline-block;
+}
+
+header h1
+{	color: olive;
+    font-family: 'PhatRave', serif;
+    font-size: 3.5em;
+    font-weight: normal;
+	text-align: center;
+	margin-left:80px;
+	margin-bottom: 20px;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+header h2
+{
+    font-family: "The Million Mile Man";
+    font-size: 2em;
+    margin-top: 0px;
+	margin-left: 130px;
+    font-weight: normal;
+	text-align: center;
+}
+
+/* Navigation */
+
+nav
+{
+	font-size: 0.9em;
+    display: inline-block;
+    width: 900px;
+    text-align: center;
+	background: url('images/fond1.10.png') ;
+	border-radius: 5px;
+	box-shadow: 0px 4px 4px #1c1a19;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/bandeau.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    /*background-color: rgb(24,24,24);  Pour les anciens navigateurs */
+    background-color: rgba(25,150,20,0.8);
+    color: purple;
+    font-size: 0.8em;
+}
+
+.bouton_rouge
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+/* Corps */
+.imageflottante
+{
+    float: left;
+}
+
+
+article, aside
+{
+	font-family: "Rumpelstiltskin";
+	font-size: 2em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+	margin: 0px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 4px #1c1a19;
+	margin-bottom: 25px;
+	
+}
+
+article
+{
+    width: 83%;
+    margin-right: 15px;
+	background: url('images/fond1.8.png') ;
+}
+
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+aside ul
+{
+    list-style-type: none;
+}
+
+aside
+{
+   position: relative;
+    width: 13%;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 0.9em;
+}
+
+/*#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+	
+	<img src="images/bulle.png" alt="" id="fleche_bulle" />  A mettre dans aside
+}*/
+
+
+aside img
+{
+    margin-left: 0px;
+}
+
+/* Footer */
+
+footer
+{
+    /*background:  url('images/ico_top.png') no-repeat top center, *//*url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top*/;
+    padding-top: 25px;
+	background: url('images/fond1.8.png') ;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer p, footer ul
+{	
+	font-family: Rumpelstiltskin;
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+#tweet, #Nos_Produits
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tweet
+{
+    width: 48%;
+}
+
+#Nos_Produits
+{
+    width: 48%;
+}
+
+#Nos_Produits img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
